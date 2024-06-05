@@ -1,0 +1,118 @@
+TEXT BASED 2 PLAYER HANGMAN
+ROUGH DRAFT TWO
+
+BEGINNING:
+- ask player one to enter the category of their phrase
+  example: if they choose Transformers, the category would be movie (could be something else, but what the word/phrase is more associated with)
+- enter the word/phrase
+- confirm with player one
+- ask player one to hand over the device to player two & press any key (or enter) to start the game
+
+GAME ITSELF
+
+CATEGORY : (Netflix) Show
++ - - +
+|     o
+|    /|\
+|     |
+|    / \
+|
++ - - - - - +
+
+A___ ____ A_ _
+
+Answer: Anne With An E
+
+Turns Left: 0 / Originally 6 or 7
+Incorrect Letters: Z, K, L, etc.
+
+** NOTE:
+- decide whether or not the full body is lose OR they have one more chance
+- make it so the player is able to put the whole phrase and it would be correct
+
+GAME ITSELF:
+- ask player to enter a letter
+
+- WRONG: put turns left down by 1
+  add the body part
+  put the letter input in Incorrect Letters
+
+- RIGHT: leave turns the way it was
+  leave the body part
+  reveal what letters is right :D
+
+- WIN: Congrats! You guessed their word & saved yourself!
+
+PHASES:
+
+Phase One:
++ - - +
+|     o
+|
+|
+|
+|
++ - - - - - +
+
+Phase Two:
++ - - +
+|     o
+|     |
+|     |
+|
+|
++ - - - - - +
+
+Phase Three:
++ - - +
+|     o
+|    /|
+|     |
+|
+|
++ - - - - - +
+
+Phase Four:
++ - - +
+|     o
+|    /|\
+|     |
+|
+|
++ - - - - - +
+
+Phase Five:
++ - - +
+|     o
+|    /|\
+|     |
+|    /
+|
++ - - - - - +
+
+Phase Six:
++ - - +
+|     o      Please get it right..
+|    /|\
+|     |
+|    / \
+|
++ - - - - - +
+
+Phase Seven:
++ - - +
+|     x       Blegh..
+|    /|\
+|     |
+|    / \
+|
++ - - - - - +
+
+If Win:
++ - - +
+|
+|    \ o /   YIPPEE!!
+|      |
+|      |
+|     / \
++ - - - - - +
