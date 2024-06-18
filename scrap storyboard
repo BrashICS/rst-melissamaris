@@ -1,0 +1,98 @@
+TEXT BASED 2 PLAYER HANGMAN
+ROUGH DRAFT
+
+BEGINNING:
+- player starts
+- describe the game / how to play
+- show the player the categories the program has
+- then ask player for what category they want
+- confirm with player the category
+- go on with hangman
+
+GAME ITSELF
++ - - +
+|     o
+|    /|\
+|     |
+|    / \
+|
++ - - - - - +
+
+____ ____ __ _
+
+Answer: Anne With An E
+
+Turns Left: 0 / Originally 7
+Letters Used: Z, K, L, etc.
+
+
+NOTE:
+- decide whether or not the full body is lose  OR they have one more chance
+
+Game Itself:
+- ask player to enter a letter
+  - Player One: 
+
+PHASES:
+Phase One:
++ - - +
+|     o
+|
+|
+|
+|
++ - - - - - +
+
+Phase Two:
++ - - +
+|     o
+|     |
+|     |
+|
+|
++ - - - - - +
+
+Phase Three:
++ - - +
+|     o
+|    /|
+|     |
+|
+|
++ - - - - - +
+
+Phase Four:
++ - - +
+|     o
+|    /|\
+|     |
+|
+|
++ - - - - - +
+
+Phase Five:
++ - - +
+|     o
+|    /|\
+|     |
+|    /
+|
++ - - - - - +
+
+Phase Six:
++ - - +
+|     o
+|    /|\
+|     |
+|    / \
+|
++ - - - - - +
+
+Phase Seven:
++ - - +
+|     x
+|    /|\
+|     |
+|    / \
+|
++ - - - - - +

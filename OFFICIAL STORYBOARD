@@ -1,0 +1,134 @@
+TEXT BASED 2 PLAYER HANGMAN
+ROUGH DRAFT TWO
+
+BEGINNING:
+- explain game
+- ask player one to enter the category of their phrase
+  example: if they choose Transformers, the category would be movie (could be something else, but what the word/phrase is more associated with)
+- enter the word/phrase
+- confirm with player one
+- ask player one to hand over the device to player two & press any key (or enter) to start the game
+
+
+RULES
+- Try to guess the secret word/phrase by only using letters from the alphabet before all the parts of hangman are there!
+- Each error will count as one body part of hangman!
+- You are able to fully type out the phrase/word, however if it's wrong that would be 2 body parts instead of one.. so be careful!
+- In total, you are able to have 7 errors. The head,  torso, right arm, left arm, left leg, right leg, and the rope! If all of those appear, you lose!
+
+
+GAME ITSELF
+
+CATEGORY : (Netflix) Show
++ - - +
+|     |
+|     o
+|    /|\
+|     |
+|    / \
+|
++ - - - - - +
+
+A___ ____ A_ _
+
+Answer: Anne With An E
+
+Turns Left: 0 / Originally 6 or 7
+Incorrect Letters: Z, K, L, etc.
+
+** NOTE:
+- make it so the player is able to put the whole phrase and it would be correct
+
+GAME ITSELF:
+- ask player to enter a letter
+
+- WRONG: put turns left down by 1
+  add the body part
+  put the letter input in Incorrect Letters
+
+- RIGHT: leave turns the way it was
+  leave the body part
+  reveal what letters is right :D
+
+- WIN: Congrats! You guessed their word & saved yourself!
+
+PHASES:
+
+Phase One:
++ - - +
+|
+|     o
+|
+|
+|
+|
++ - - - - - +
+
+Phase Two:
++ - - +
+|
+|     o
+|     |
+|     |
+|
+|
++ - - - - - +
+
+Phase Three:
++ - - +
+|
+|     o
+|    /|
+|     |
+|
+|
++ - - - - - +
+
+Phase Four:
++ - - +
+|
+|     o
+|    /|\
+|     |
+|
+|
++ - - - - - +
+
+Phase Five:
++ - - +
+|
+|     o
+|    /|\
+|     |
+|    /
+|
++ - - - - - +
+
+Phase Six:
++ - - +
+|
+|     o      Please get it right..
+|    /|\
+|     |
+|    / \
+|
++ - - - - - +
+
+Phase Seven:
++ - - +
+|     |
+|     x       Blegh..
+|    /|\
+|     |
+|    / \
+|
++ - - - - - +
+
+If Win:
++ - - +
+|
+|    \ o /   YIPPEE!!
+|      |
+|      |
+|     / \
++ - - - - - +
